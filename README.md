@@ -10,6 +10,11 @@
 - JQ
 - Docker
 
+## SWAGGER
+
+- http://localhost:8091/swagger-ui/index.html
+- http://localhost:8091/v3/api-docs
+
 ## Services
 
 
