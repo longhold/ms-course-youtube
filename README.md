@@ -12,6 +12,8 @@
 
 ## SWAGGER
 
+- https://www.baeldung.com/spring-rest-openapi-documentation
+  
 - http://localhost:8091/swagger-ui/index.html
 - http://localhost:8091/v3/api-docs
 
