@@ -12,11 +12,13 @@ spring:
       discovery:
         locator:
           enabled: true
+      loadbalancer:
+          use404: false
       routes:
         - id: customer-service
-          uri: customers
+          uri: lb://customers-services
           predicates:
-            - Path=http://localhost:8092/customers
+            - Path=/customers/**
         - id: product-service
           uri: lb://product-service
           predicates:
