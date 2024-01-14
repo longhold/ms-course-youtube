@@ -16,7 +16,7 @@ spring:
           use404: false
       routes:
         - id: customer-service
-          uri: lb://customers-services
+          uri: http://localhost:8092/customers
           predicates:
             - Path=/customers/**
         - id: product-service
